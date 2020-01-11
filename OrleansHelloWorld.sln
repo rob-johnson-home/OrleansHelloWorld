@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silo", "Silo\Silo.csproj", "{959DAD80-77AC-4C34-9BA2-AE6E92AF4A1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{013B0939-C184-47FC-8A94-64AF9D7CC9E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainsInterfaces", "GrainsInterfaces\GrainsInterfaces.csproj", "{17D45140-8674-491C-8141-F6C0D3D137AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grains", "Grains\Grains.csproj", "{F40DE289-2E62-4B30-9491-3CCF16DB7D5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{959DAD80-77AC-4C34-9BA2-AE6E92AF4A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959DAD80-77AC-4C34-9BA2-AE6E92AF4A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959DAD80-77AC-4C34-9BA2-AE6E92AF4A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959DAD80-77AC-4C34-9BA2-AE6E92AF4A1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{013B0939-C184-47FC-8A94-64AF9D7CC9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013B0939-C184-47FC-8A94-64AF9D7CC9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013B0939-C184-47FC-8A94-64AF9D7CC9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013B0939-C184-47FC-8A94-64AF9D7CC9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17D45140-8674-491C-8141-F6C0D3D137AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D45140-8674-491C-8141-F6C0D3D137AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D45140-8674-491C-8141-F6C0D3D137AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D45140-8674-491C-8141-F6C0D3D137AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F40DE289-2E62-4B30-9491-3CCF16DB7D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F40DE289-2E62-4B30-9491-3CCF16DB7D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F40DE289-2E62-4B30-9491-3CCF16DB7D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F40DE289-2E62-4B30-9491-3CCF16DB7D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
