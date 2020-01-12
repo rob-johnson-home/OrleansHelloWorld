@@ -44,6 +44,7 @@ namespace OrleansBasics
                     options.ServiceId = "OrleansBasics";
                 })
                 .ConfigureApplicationParts(parts => parts.AddApplicationPart(typeof(HelloGrain).Assembly).WithReferences())
+                .ConfigureApplicationParts(parts => parts.AddApplicationPart(typeof(GoodByeGrain).Assembly).WithReferences())
                 .ConfigureLogging(logging => logging.AddConsole());
 
             var host = builder.Build();
